@@ -1,3 +1,6 @@
+First launch an AWS EC2 linux machine and connect linux machine with gitbash by typing the following command
+( ssh -i keypair username@ip) connect the machine.
+
 webserver creation :
 1. installation of packages
 2.start the service
