@@ -1,0 +1,14 @@
+First, install httpd server and add port 80. \n
+steps to configure webserver:
+1. yum install httpd -y 
+2. systemctl start httpd
+3.systemctl enable httpd
+4.systemctl status httpd
+5.cd /var/www/html (add the html file)
+6.yum install firewall* -y
+7.systemctl start firewalld
+8.systemctl enable firewalld
+9.systemctl status firewalld
+10.firewall-cmd --add-port=80/tcp --permanent
+11.firewall-cmd --reload
+12.firewall-cmd --list-all
